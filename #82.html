@@ -1,39 +1,35 @@
-<div class=center-div>
-    <div class=left></div>
-    <div class=right></div>
-  </div>
-  
-  <style>
-    body{
-      background:#F3AC3C;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-    }
-    .center-div{
-      background:#1A4341;
-      width:31px;
-      height:31px;
-      transform:rotate(45deg); 
-      border:35px solid #F3AC3C;
-      outline:30px solid #998235;
-      position:relative;
-    }
-    .left{
-      position:absolute;
-      width:31px;
-      background:#F3AC3C;
+<div class=center>
+  <div class="extra left"></div>
+  <div class="extra right"></div>
+</div>
+<style>
+  body{
+  background:#F3AC3C;
+    display:flex;
+  }
+  .center{
+    position:relative;
+  width:30px;
+    height:30px;
+    background:#1A4341;
+    transform:rotate(45deg);
+    top:92;
+    left:140;
+    border:35px solid #F3AC3C;
+    outline:30px solid #998235;
+  }
+  .extra{
+    position:absolute;
+    background:#F3AC3C;
+  }
+  .left{
+     width:35px;
       height:30px;
-      left:-65px;
-    }
-     .right{
-      position:absolute;
-      width:31px;
-      background:#F3AC3C;
-      height:32px;
-      bottom:65px;
-    }
-  
-  </style>
-  
-  
+    right:63;
+  }
+  .right{
+    bottom:62;
+     height:35px;
+    width:30px
+  }
+</style>
